@@ -7,7 +7,7 @@ function updateTimer(){
 
 	const timerElement = document.getElementById("timer");
 	if(timerElement){
-			timerElement.textElement = `${formattedDate}, ${formattedTime}`;
+			timerElement.textContent = `${formattedDate}, ${formattedTime}`;
 	}
 }
 
